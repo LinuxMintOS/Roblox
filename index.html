@@ -778,7 +778,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         homeUrl: "https://www.roblox.com/home",
         securityNotificationUrl: "https://www.roblox.com/login/securitynotification",
         apiProxyUrl: "https://api.roblox.com",
-        fbSignInUrl: "",
+        fbSignInUrl: "https://facebook.com",
         loginPageUrl: "https://www.roblox.com/newlogin",
         isLoginWithEmailEnabled: true,
         isLoginWithPhoneEnabled: true,
@@ -1159,7 +1159,6 @@ function checkRobloxInstall() {
             try {
                 cookie = JSON.parse(cookieStr);
             } catch (ex) {
-                // busted cookie string from old previous version of the code
             }
 
             try {
